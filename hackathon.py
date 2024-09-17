@@ -1,7 +1,3 @@
-NAME_SENIOR = input("please enter your name:")
-PHONE_NUM_SENIOR = int(input("please enter your phone number:"))
-HELP_KIND_SENIOR = input("please enter your priority:")
-settings = input("Do you have any disabilities?")
 NAME_VOLUNTEER_1 = 'GAL'
 NAME_VOLUNTEER_2 = 'BAR'
 NAME_VOLUNTEER_3 = 'STAV'
@@ -14,11 +10,13 @@ PHONE_NUM_VOLUNTEER_3 = '0525675672'
 PHONE_NUM_VOLUNTEER_4 = '0525675673'
 PHONE_NUM_VOLUNTEER_5 = '0525675674'
 
-PROFFESION_VOLUNTEER_1 = 'FIXXING'
+PROFESSION_VOLUNTEER_1 = 'FIXING'
 HELP_KIND_VOLUNTEER_2 = 'CLEANING'
 HELP_KIND_VOLUNTEER_3 = 'LISTENER'
 HELP_KIND_VOLUNTEER_4 = 'FOOD'
 HELP_KIND_VOLUNTEER_5 = 'STUFF'
 
-
-
+NAME_SENIOR = input("please enter your name:")
+PHONE_NUM_SENIOR = int(input("please enter your phone number:"))
+HELP_KIND_SENIOR = input("please enter your priority:")
+settings = input("Do you have any disabilities?")
